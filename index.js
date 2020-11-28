@@ -1,9 +1,10 @@
-var kittens = ["Milo", "Otis", "Garfield"];
+var kittens = ["Milo", "Otis", "Garfield"]; 
 var kitten = ["Ralph"];
 var newArray;
-// Add your functions and code here
-function destructivelyAppendKitten(){
-  newArray = kittens.concat(kitten);
+
+function destructivelyAppendKitten(name){
+  newArray = name.concat(kitten);
   return newArray;
 }
-console.log(destructivelyAppendKitten());
+
+console.log(destructivelyAppendKitten(kittens)); 
