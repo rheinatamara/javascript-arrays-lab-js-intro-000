@@ -4,4 +4,3 @@ var kitten = ["Ralph"]
 function destructivelyAppendKitten(name){
   var newArray = kittens.concat(kitten);
 }
-
