@@ -1,4 +1,4 @@
-var kittens = ["Milo", "Otis", "Garfield"]; 
+var kittens = ["Milo", "Otis", "Garfield"];
 var kitten = ["Ralph"];
 var newArray;
 
@@ -7,4 +7,4 @@ function destructivelyAppendKitten(name){
   return newArray;
 }
 
-console.log(destructivelyAppendKitten(kittens)); 
+console.log(destructivelyAppendKitten(kittens));
