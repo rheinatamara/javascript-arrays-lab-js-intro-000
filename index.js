@@ -5,4 +5,4 @@ function destructivelyAppendKitten(name){
   var newArray = kittens.concat(kitten);
   return newArray;
 }
-console.log(destructivelyAppendKitten(newArray))
+console.log(destructivelyAppendKitten(newArray));
